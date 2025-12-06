@@ -95,7 +95,7 @@ Your SLAL packs will need **SLSB conversion patches**. The good news:
 
 ### "Will I lose my MCM settings?"
 
-P+ uses a different settings system, so you'll need to reconfigure. However, once set up, your settings persist across all saves automatically.
+P+ uses a different settings system, so you'll need to reconfigure. However, once set up, your settings are saved to `Settings.yaml` and persist across all saves automatically.
 
 ---
 
@@ -105,6 +105,7 @@ P+ uses a different settings system, so you'll need to reconfigure. However, onc
 **Capacity** - Unlimited animation slots  
 **Simplicity** - Fewer mods to manage  
 **Modern features** - Rebuilt enjoyment/orgasm system  
+**Advanced customization** - Fine-tune framework behavior via [Settings Reference](../settings-reference/)
 
 ---
 

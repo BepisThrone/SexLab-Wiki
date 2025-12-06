@@ -14,6 +14,8 @@ A complete, step-by-step guide to installing SexLab P+.
 
 ### Skyrim Version
 
+**Current Builds (Legacy Versioning)**
+
 | Version | Support Level |
 |---------|---------------|
 | **1.6.1170** | ✅ Fully Supported |
@@ -23,7 +25,13 @@ A complete, step-by-step guide to installing SexLab P+.
 
 > **GOG Users:** Support is not guaranteed but will be investigated.
 
-> With the community maintaining SexLab Patch+ an "NG" build is in progress. This would make SLP+ version agnostic
+**Future Builds (CommonLibSSE-NG)**
+
+Future versions of SexLab P+ will be compiled with CommonLibSSE-NG, making them **version agnostic**. This means a single build will work across all Skyrim SE/AE versions without needing version-specific releases.
+
+### VR Support
+
+A VR version is being considered but requires external help and contributions. If you're interested in helping with VR support, please reach out on the [Discord](https://discord.gg/JPSHb4ebqj).
 
 ### Required Mods
 
@@ -126,18 +134,13 @@ Use load order rules to ensure:
 
 ---
 
-## Soft Requirements
+## Recommended Mods
 
-For optimal physics and body support:
+For optimal physics and body support, see:
 
-### Female Bodies
-[CBBE 3BA (3BBB)](https://www.nexusmods.com/skyrimspecialedition/mods/30174)
+**→ [Recommended Mods](../recommended-mods/)**
 
-### Male Bodies
-[HIMBO](https://www.nexusmods.com/skyrimspecialedition/mods/46311)
-
-### Genitals
-[The New Gentleman (TNG)](https://www.nexusmods.com/skyrimspecialedition/mods/104215) is recommended over Schlongs of Skyrim.
+This includes body mods (CBBE 3BA, HIMBO, The New Gentleman) and other complementary mods.
 
 ---
 
@@ -152,12 +155,14 @@ For optimal physics and body support:
 
 ### Settings
 
-P+ settings are **save-agnostic**, configure once and they apply to all saves.
+P+ settings are **save-agnostic**—configure once and they apply to all saves.
 
-Settings are stored in:
+Your MCM preferences are automatically saved to:
 ```
-SKSE\Plugins\SexLab.ini
+SKSE\Plugins\SexLabData\Settings.yaml
 ```
+
+For advanced configuration of the enjoyment system, detection thresholds, and other framework internals, see the [Settings Reference](../settings-reference/).
 
 ---
 

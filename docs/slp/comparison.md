@@ -89,10 +89,10 @@ SLP+ includes functionality that requires separate mods with vanilla SexLab:
 - Completely rewritten enjoyment logic
 - Stage-specific tags drive enjoyment
 - 3D physics data detects interaction types
-- Customizable via `SKSE\Plugins\SexLab.ini`
+- Fully customizable via [Settings Reference](../settings-reference/)
 - SLSO events maintained for backwards compatibility
 - Widget support available as optional patch
-- Minigame planned for future UI update
+- Minigame planned for future update (not yet available)
 
 ---
 

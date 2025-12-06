@@ -22,14 +22,21 @@ It's a replacement. You install base SexLab first (as a precaution), then P+ ove
 
 ### Which Skyrim versions are supported?
 
+**Current builds:**
 - **1.6.1170** - Fully supported
 - **1.5.97** - Limited support
 - **1.6.640** - Not supported (will crash eventually)
 - **GOG** - Not guaranteed but investigated
 
+**Future builds:** Future versions will use CommonLibSSE-NG, making them **version agnostic** (one build for all versions).
+
 ### Is there an LE/Oldrim version?
 
 No. P+ is SE/AE only.
+
+### What about VR support?
+
+A VR version is being considered but requires external help. If you're interested in contributing to VR support, please reach out on the [Discord](https://discord.gg/JPSHb4ebqj).
 
 ---
 
@@ -71,11 +78,11 @@ Yes, but you need SLSB conversion patches. Install the SLAL pack (for meshes) an
 
 ### Where do I get animation packs?
 
-See [Animation Packs](slp/animation-packs/) for a list of converted packs and download links.
+See [Animation Packs](/slp/animation-packs/) for a list of converted packs and download links.
 
 ### Can I convert SLAL packs myself?
 
-Yes! See [Converting Animations](slsb/converting-animations/) for instructions.
+Yes! See [Converting Animations](/slsb/converting-animations/) for instructions.
 
 ---
 
@@ -88,7 +95,7 @@ Most will. P+ maintains backwards compatibility for:
 - Animation tags
 - Standard API calls
 
-See [Incompatible Mods](slp/incompatible-mods/) for exceptions.
+See [Incompatible Mods](/slp/incompatible-mods/) for exceptions.
 
 ### What about Devious Devices?
 
@@ -109,7 +116,7 @@ P+ has a rewritten enjoyment system that:
 - Detects interaction types via 3D physics
 - Affects actors individually
 
-You can customize it via `SKSE\Plugins\SexLab.ini`.
+You can customize it via `SKSE\Plugins\SexLab.ini`. See the [Settings Reference](/slp/settings-reference/) for all available options.
 
 ### Are there widgets?
 
@@ -117,11 +124,11 @@ A stripped-down SLSO-style widget is available as an optional patch on the Disco
 
 ### Is there a minigame?
 
-Not yet. It's planned for a future UI update.
+⚠️ **Planned feature (not yet available).** A minigame is planned for a future UI update.
 
 ### Can I import my MCM settings?
 
-P+ uses a different settings system. You'll need to reconfigure, but settings then persist across all saves automatically.
+P+ uses a different settings system. You'll need to reconfigure, but your settings are then saved to `Settings.yaml` and persist across all saves automatically.
 
 ---
 
@@ -138,7 +145,7 @@ P+ uses a different settings system. You'll need to reconfigure, but settings th
 
 SLSB is an external tool that compiles JSON definitions into `.slr` (SexLab Registry) files.
 
-See [SLAL vs SLSB](slsb/slal-vs-slsb/) for details.
+See [SLAL vs SLSB](/slsb/slal-vs-slsb/) for details.
 
 ### Do pack authors need to update?
 
@@ -168,7 +175,7 @@ Wait 1-2 minutes after loading for MCM to populate. Also check SkyUI is installe
 - Install Mfg Fix NG
 - Check for mod conflicts
 
-See [Troubleshooting](troubleshooting/) for more help.
+See [Troubleshooting](/troubleshooting/) for more help.
 
 ---
 
@@ -200,7 +207,14 @@ Discord or LoversLab. Include:
 
 ### Where are settings stored?
 
-`SKSE\Plugins\SexLab.ini`
+P+ uses two configuration files:
+
+| File | Location | Purpose |
+|------|----------|----------|
+| `Settings.yaml` | `SKSE\Plugins\SexLabData\Settings.yaml` | Your MCM preferences (auto-saved) |
+| `SexLab.ini` | `SKSE\Plugins\SexLab.ini` | Framework internals (enjoyment rates, detection thresholds) |
+
+See the [Settings Reference](/slp/settings-reference/) for details on SexLab.ini.
 
 ### Where are animation definitions?
 

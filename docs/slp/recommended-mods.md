@@ -75,7 +75,7 @@ These mods provide quests, interactions, and scenarios that utilize SexLab:
 
 ### Quest/Story Mods
 
-Check the [LoversLab](https://www.loverslab.com/) forums for P+ compatible quest mods.
+Check the [LoversLab](https://www.loverslab.com/) forums for P+ compatible quest mods. Most should be compatible out of the box, but mileage may vary.
 
 ### Gameplay Mods
 

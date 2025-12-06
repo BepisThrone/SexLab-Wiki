@@ -24,6 +24,22 @@ Most existing SLAL packs need conversion patches to work with P+.
 
 > **Note:** Until authors grant redistribution permission, both the original pack and conversion must be downloaded separately.
 
+### The Automated.SLSB.Conversions Package
+
+The community maintains **Automated.SLSB.Conversions**, a bundled package containing pre-compiled SLSB conversion patches for many popular SLAL packs. This allows you to download multiple conversions in a single file instead of downloading each one individually.
+
+**How it works:**
+- Download the Automated.SLSB.Conversions package from the Discord
+- Install it after your SLAL packs, letting it overwrite them
+- The conversions will apply automatically
+
+This is especially useful if you're installing many animation packs at once.
+
+### Want to Learn More?
+
+- See [SLAL vs SLSB](/slsb/slal-vs-slsb/) for a technical comparison
+- See [Converting Animations](/slsb/converting-animations/) if you want to convert packs yourself
+
 ---
 
 ## Converted Packs (v0.9e)

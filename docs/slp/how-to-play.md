@@ -80,12 +80,20 @@ P+ uses 3D physics data to determine what's happening:
 | Handjob | Low gain |
 | Idle/positioning | Minimal gain |
 
-### Customization
+### Configuration Levels
 
-You can customize enjoyment rates by editing:
+**MCM (In-Game - Recommended for most users)**
+
+Your MCM preferences are automatically saved to `Settings.yaml` and persist across all saves. This is where you configure game-facing options like animation speed, timers, and actor behavior.
+
+**Advanced Configuration (SexLab.ini - For technical users)**
+
+For fine-tuning the framework's internal behavior (enjoyment rates, detection thresholds, physics sensitivity, etc.), edit:
 ```
 SKSE\Plugins\SexLab.ini
 ```
+
+See the [Settings Reference](../settings-reference/) for a complete list of technical configuration values.
 
 ---
 
