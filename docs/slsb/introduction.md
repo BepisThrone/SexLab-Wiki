@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Introduction
-nav_order: 1
-parent: SLSB
+permalink: /slsb/introduction/
 ---
 
 # SexLab Scene Builder (SLSB)

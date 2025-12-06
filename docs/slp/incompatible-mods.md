@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Incompatible Mods
-nav_order: 8
-parent: SexLab P+
+permalink: /slp/incompatible-mods/
 ---
 
 # Incompatible Mods

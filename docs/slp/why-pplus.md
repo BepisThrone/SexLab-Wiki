@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Why P+?
-nav_order: 3
-parent: SexLab P+
+permalink: /slp/why-pplus/
 ---
 
 # Why Choose SexLab P+?

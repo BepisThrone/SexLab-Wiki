@@ -1,8 +1,7 @@
 ---
 layout: default
 title: How to Play
-nav_order: 5
-parent: SexLab P+
+permalink: /slp/how-to-play/
 ---
 
 # How to Play

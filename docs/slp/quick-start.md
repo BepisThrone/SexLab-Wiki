@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Quick Start
-nav_order: 1
-parent: SexLab P+
+permalink: /slp/quick-start/
 ---
 
 # Quick Start Guide

@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Feature Comparison
-nav_order: 4
-parent: SexLab P+
+permalink: /slp/comparison/
 ---
 
 # Feature Comparison

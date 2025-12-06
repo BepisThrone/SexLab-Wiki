@@ -1,7 +1,7 @@
 ---
 layout: default
 title: FAQ
-nav_order: 11
+permalink: /faq/
 ---
 
 # Frequently Asked Questions

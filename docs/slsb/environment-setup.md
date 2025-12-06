@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Environment Setup
-nav_order: 4
-parent: SLSB
+permalink: /slsb/environment-setup/
 ---
 
 # Environment Setup

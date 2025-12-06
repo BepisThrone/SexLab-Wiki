@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Converting Animations
-nav_order: 3
-parent: SLSB
+permalink: /slsb/converting-animations/
 ---
 
 # Converting Animations

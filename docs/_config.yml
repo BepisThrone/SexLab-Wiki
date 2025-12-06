@@ -1,7 +1,7 @@
 # Site settings
 title: SexLab P+ Documentation
 description: Documentation for SexLab Patch Plus, SexLab Scene Builder, and related mods
-baseurl: "/sexlab-wiki" # the subpath of your site
+baseurl: "/SexLab-Wiki" # the subpath of your site - must match repo name exactly
 url: "https://slp-community.github.io" # the base hostname & protocol for your site
 
 # Build settings
@@ -25,29 +25,9 @@ exclude:
   - node_modules
   - .bundle
 
-# Collections for organizing mods
-collections:
-  slp:
-    output: true
-    permalink: /slp/:path/
-  slsb:
-    output: true
-    permalink: /slsb/:path/
-
-# Defaults
+# Defaults - apply layout to all pages
 defaults:
   - scope:
       path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "slp"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "slsb"
     values:
       layout: "default"

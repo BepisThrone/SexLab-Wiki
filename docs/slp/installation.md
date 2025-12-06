@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Installation
-nav_order: 6
-parent: SexLab P+
+permalink: /slp/installation/
 ---
 
 # Installation Guide

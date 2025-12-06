@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Animation Packs
-nav_order: 9
-parent: SexLab P+
+permalink: /slp/animation-packs/
 ---
 
 # Animation Packs

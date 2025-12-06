@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Beginner's Guide
-nav_order: 2
-parent: SexLab P+
+permalink: /slp/beginners-guide/
 ---
 
 # Beginner's Guide

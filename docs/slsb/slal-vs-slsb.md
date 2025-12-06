@@ -1,8 +1,7 @@
 ---
 layout: default
 title: SLAL vs SLSB
-nav_order: 2
-parent: SLSB
+permalink: /slsb/slal-vs-slsb/
 ---
 
 # SLAL vs SLSB

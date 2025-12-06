@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Recommended Mods
-nav_order: 7
-parent: SexLab P+
+permalink: /slp/recommended-mods/
 ---
 
 # Recommended Mods
