@@ -1,0 +1,50 @@
+# Site settings
+title: SexLab P+ Documentation
+description: Documentation for SexLab Patch Plus, SexLab Scene Builder, and related mods
+baseurl: "/sexlab-wiki" # the subpath of your site
+url: "https://slp-community.github.io" # the base hostname & protocol for your site
+
+# Build settings
+theme: jekyll-theme-slate
+plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+# Collections for organizing mods
+collections:
+  slp:
+    output: true
+    permalink: /slp/:path/
+  slsb:
+    output: true
+    permalink: /slsb/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "slp"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "slsb"
+    values:
+      layout: "default"

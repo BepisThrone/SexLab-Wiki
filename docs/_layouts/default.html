@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <p>{{ site.description }}</p>
+      
+      <nav class="main-nav">
+        <h2>SexLab P+</h2>
+        <ul>
+          <li><a href="{{ '/slp/quick-start/' | relative_url }}">Quick Start</a></li>
+          <li><a href="{{ '/slp/beginners-guide/' | relative_url }}">Beginner's Guide</a></li>
+          <li><a href="{{ '/slp/why-pplus/' | relative_url }}">Why P+?</a></li>
+          <li><a href="{{ '/slp/comparison/' | relative_url }}">Feature Comparison</a></li>
+          <li><a href="{{ '/slp/how-to-play/' | relative_url }}">How to Play</a></li>
+          <li><a href="{{ '/slp/installation/' | relative_url }}">Installation</a></li>
+        </ul>
+        
+        <h2>Load Order</h2>
+        <ul>
+          <li><a href="{{ '/slp/recommended-mods/' | relative_url }}">Recommended Mods</a></li>
+          <li><a href="{{ '/slp/incompatible-mods/' | relative_url }}">Incompatible Mods</a></li>
+          <li><a href="{{ '/slp/animation-packs/' | relative_url }}">Animation Packs</a></li>
+        </ul>
+        
+        <h2>SLSB</h2>
+        <ul>
+          <li><a href="{{ '/slsb/introduction/' | relative_url }}">Introduction</a></li>
+          <li><a href="{{ '/slsb/slal-vs-slsb/' | relative_url }}">SLAL vs SLSB</a></li>
+          <li><a href="{{ '/slsb/converting-animations/' | relative_url }}">Converting Animations</a></li>
+          <li><a href="{{ '/slsb/environment-setup/' | relative_url }}">Environment Setup</a></li>
+        </ul>
+        
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="{{ '/troubleshooting/' | relative_url }}">Troubleshooting</a></li>
+          <li><a href="{{ '/faq/' | relative_url }}">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <article>
+        {{ content }}
+      </article>
+    </main>
+    
+    <footer>
+      <p>SexLab P+ Documentation</p>
+      <p><a href="https://discord.gg/JPSHb4ebqj">Discord</a> | <a href="https://github.com/Scrabx3/SexLab">GitHub</a> | <a href="https://www.loverslab.com/files/file/25318-sexlab-p/">LoversLab</a></p>
+    </footer>
+  </div>
+</body>
+</html>
