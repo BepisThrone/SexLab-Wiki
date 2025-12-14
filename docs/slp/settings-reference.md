@@ -67,7 +67,7 @@ Settings controlling animation selection scoring. Animations are scored based on
 Boolean toggles to enable/disable specific creature races in animations. Set to `false` to prevent a race from being used in scenes.
 
 <details>
-    <summary><strong>Click to expand full race list</strong></summary>
+<summary><strong>Click to expand full race list</strong></summary>
 
     | Setting (Race) |
     |----------------|
