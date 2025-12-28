@@ -67,63 +67,69 @@ Settings controlling animation selection scoring. Animations are scored based on
 Boolean toggles to enable/disable specific creature races in animations. Set to `false` to prevent a race from being used in scenes.
 
 <details>
-
 <summary><strong>Click to expand full race list</strong></summary>
 
-| Setting (Race) |
-|----------------|
-| `bAshHopper` — Ash Hopper |
-| `bBear` — Bear |
-| `bBoar` — Boar |
-| `bBoarMounted` — Mounted Boar |
-| `bBoarSingle` — Single Boar |
-| `bCanine` — Canine (generic) |
-| `bChaurus` — Chaurus |
-| `bChaurusHunter` — Chaurus Hunter |
-| `bChaurusReaper` — Chaurus Reaper |
-| `bChicken` — Chicken |
-| `bCow` — Cow |
-| `bDeer` — Deer |
-| `bDog` — Dog |
-| `bDragon` — Dragon |
-| `bDragonPriest` — Dragon Priest |
-| `bDraugr` — Draugr |
-| `bDwarvenBallista` — Dwarven Ballista |
-| `bDwarvenCenturion` — Dwarven Centurion |
-| `bDwarvenSphere` — Dwarven Sphere |
-| `bDwarvenSpider` — Dwarven Spider |
-| `bFalmer` — Falmer |
-| `bFlameAtronach` — Flame Atronach |
-| `bFox` — Fox |
-| `bFrostAtronach` — Frost Atronach |
-| `bGargoyle` — Gargoyle |
-| `bGiant` — Giant |
-| `bGiantSpider` — Giant Spider |
-| `bGoat` — Goat |
-| `bHagraven` — Hagraven |
-| `bHare` — Hare |
-| `bHorker` — Horker |
-| `bHorse` — Horse |
-| `bIceWraith` — Ice Wraith |
-| `bLargeSpider` — Large Spider |
-| `bLurker` — Lurker |
-| `bMammoth` — Mammoth |
-| `bMudcrab` — Mudcrab |
-| `bNetch` — Netch |
-| `bRiekling` — Riekling |
-| `bSabrecat` — Sabrecat |
-| `bSeeker` — Seeker |
-| `bSkeever` — Skeever |
-| `bSlaughterfish` — Slaughterfish |
-| `bSpider` — Spider |
-| `bSpriggan` — Spriggan |
-| `bStormAtronach` — Storm Atronach |
-| `bTroll` — Troll |
-| `bVampireLord` — Vampire Lord |
-| `bWerewolf` — Werewolf |
-| `bWisp` — Wisp |
-| `bWispmother` — Wispmother |
-| `bWolf` — Wolf |
+<table>
+    <thead>
+        <tr>
+            <th>Setting (Race)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td><code>bAshHopper</code> — Ash Hopper</td></tr>
+        <tr><td><code>bBear</code> — Bear</td></tr>
+        <tr><td><code>bBoar</code> — Boar</td></tr>
+        <tr><td><code>bBoarMounted</code> — Mounted Boar</td></tr>
+        <tr><td><code>bBoarSingle</code> — Single Boar</td></tr>
+        <tr><td><code>bCanine</code> — Canine (generic)</td></tr>
+        <tr><td><code>bChaurus</code> — Chaurus</td></tr>
+        <tr><td><code>bChaurusHunter</code> — Chaurus Hunter</td></tr>
+        <tr><td><code>bChaurusReaper</code> — Chaurus Reaper</td></tr>
+        <tr><td><code>bChicken</code> — Chicken</td></tr>
+        <tr><td><code>bCow</code> — Cow</td></tr>
+        <tr><td><code>bDeer</code> — Deer</td></tr>
+        <tr><td><code>bDog</code> — Dog</td></tr>
+        <tr><td><code>bDragon</code> — Dragon</td></tr>
+        <tr><td><code>bDragonPriest</code> — Dragon Priest</td></tr>
+        <tr><td><code>bDraugr</code> — Draugr</td></tr>
+        <tr><td><code>bDwarvenBallista</code> — Dwarven Ballista</td></tr>
+        <tr><td><code>bDwarvenCenturion</code> — Dwarven Centurion</td></tr>
+        <tr><td><code>bDwarvenSphere</code> — Dwarven Sphere</td></tr>
+        <tr><td><code>bDwarvenSpider</code> — Dwarven Spider</td></tr>
+        <tr><td><code>bFalmer</code> — Falmer</td></tr>
+        <tr><td><code>bFlameAtronach</code> — Flame Atronach</td></tr>
+        <tr><td><code>bFox</code> — Fox</td></tr>
+        <tr><td><code>bFrostAtronach</code> — Frost Atronach</td></tr>
+        <tr><td><code>bGargoyle</code> — Gargoyle</td></tr>
+        <tr><td><code>bGiant</code> — Giant</td></tr>
+        <tr><td><code>bGiantSpider</code> — Giant Spider</td></tr>
+        <tr><td><code>bGoat</code> — Goat</td></tr>
+        <tr><td><code>bHagraven</code> — Hagraven</td></tr>
+        <tr><td><code>bHare</code> — Hare</td></tr>
+        <tr><td><code>bHorker</code> — Horker</td></tr>
+        <tr><td><code>bHorse</code> — Horse</td></tr>
+        <tr><td><code>bIceWraith</code> — Ice Wraith</td></tr>
+        <tr><td><code>bLargeSpider</code> — Large Spider</td></tr>
+        <tr><td><code>bLurker</code> — Lurker</td></tr>
+        <tr><td><code>bMammoth</code> — Mammoth</td></tr>
+        <tr><td><code>bMudcrab</code> — Mudcrab</td></tr>
+        <tr><td><code>bNetch</code> — Netch</td></tr>
+        <tr><td><code>bRiekling</code> — Riekling</td></tr>
+        <tr><td><code>bSabrecat</code> — Sabrecat</td></tr>
+        <tr><td><code>bSeeker</code> — Seeker</td></tr>
+        <tr><td><code>bSkeever</code> — Skeever</td></tr>
+        <tr><td><code>bSlaughterfish</code> — Slaughterfish</td></tr>
+        <tr><td><code>bSpider</code> — Spider</td></tr>
+        <tr><td><code>bSpriggan</code> — Spriggan</td></tr>
+        <tr><td><code>bStormAtronach</code> — Storm Atronach</td></tr>
+        <tr><td><code>bTroll</code> — Troll</td></tr>
+        <tr><td><code>bVampireLord</code> — Vampire Lord</td></tr>
+        <tr><td><code>bWerewolf</code> — Werewolf</td></tr>
+        <tr><td><code>bWisp</code> — Wisp</td></tr>
+        <tr><td><code>bWispmother</code> — Wispmother</td></tr>
+        <tr><td><code>bWolf</code> — Wolf</td></tr>
+    </tbody>
+</table>
 
 </details>
 
