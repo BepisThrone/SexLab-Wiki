@@ -55,7 +55,7 @@ These mods should **not be installed** because their functionality is built into
 | [SLACS Plus - SexLab Advanced Cum Stages](https://www.loverslab.com/files/file/16677-slacs-plus-sexlab-advanced-cum-stages/) | Redundant - built into P+ |
 
 > **Note:** SL Utilities+ & sslAnimationSlots 3000 **WILL** break scene setup! *Do not use with SLP+*
-> **Note:** Users wanting to apply custom cum overlays can place the `.dds` files into `\Textures\Sexlab\CumFx[Oral/Vaginal/Anal]\SLACS\` obeying the SLACS file naming convention.
+> **Note:** Users wanting to apply custom Cum FX overlays can do so with this guide [Overlays And Voices](/slp/overlays-and-voices/).
 
 ---
 
