@@ -155,7 +155,7 @@ Common issues and their solutions for SexLab P+.
 2. **Is the Actor reaching climax?**
    - If using separate orgasm mode ensure the required actor is reaching climax 
 
-4. **IS your custom Fx replacer enabled in the MCM?**
+4. **Is your custom Fx replacer enabled in the MCM?**
    - Check the SLP+ MCM and ensure you selected your desired profile
    - For a detailed guide on FX replacers for SLP+ go here [Overlays And Voices](/slp/overlays-and-voices/)
 
